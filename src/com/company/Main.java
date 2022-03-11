@@ -7,5 +7,8 @@ public class Main {
         System.out.println("Hello World! New");
 
         StudentDecis student1 = new StudentDecis("Vasile", 123456789);
+        student1.faceTemaPentruAcasa();
+        StudentDecis student2 = new StudentDecis("Andrei", 455684512);
+        student2.faceTemaPentruAcasa();
     }
 }
